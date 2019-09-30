@@ -130,7 +130,7 @@
             <h1 class="h3 mb-0 text-gray-800">Produtos</h1>
           </div>
 
-          <?php echo form_open("produtos/excluir");?>
+          <?php echo form_open("produtos/editar");?>
 
           <!-- Content Row -->
           <div class="row">
@@ -163,7 +163,7 @@
             <div style="margin: 0 auto;">
             <?php 
               echo form_button(array(
-                  "content" => "Excluir",
+                  "content" => "Editar",
                   "type" => "submit",
                   "class" => "btn btn-primary"
               ));

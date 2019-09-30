@@ -130,7 +130,7 @@
             <h1 class="h3 mb-0 text-gray-800">Usuários</h1>
           </div>
           
-          <?php echo form_open("usuarios/editar");?>
+          <?php echo form_open("usuarios/excluir");?>
 
           <!-- Content Row -->
           <div class="row">
